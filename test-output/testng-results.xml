@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-05T22:22:33 GST" name="Test Suite" finished-at="2024-10-05T22:23:02 GST" duration-ms="28915">
+    <groups>
+    </groups>
+    <test started-at="2024-10-05T22:22:33 GST" name="Test" finished-at="2024-10-05T22:23:02 GST" duration-ms="28915">
+      <class name="tests.Test_CheckoutPdt_NewUser">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@7d20d0b]" started-at="2024-10-05T22:22:33 GST" name="initialize" finished-at="2024-10-05T22:22:43 GST" duration-ms="9109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateProductCheckoutForNewUser(java.util.HashMap)[pri:0, instance:tests.Test_CheckoutPdt_NewUser@7d20d0b]" started-at="2024-10-05T22:22:43 GST" name="validateProductCheckoutForNewUser" data-provider="getData" finished-at="2024-10-05T22:23:02 GST" duration-ms="18955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Tester, lastName=One, password=Test@123, searchkey=MAGNA-TILES, productName=MAGNA-TILES - Safari Animals 25-Piece Set, email=testerone@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductCheckoutForNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@7d20d0b]" started-at="2024-10-05T22:23:02 GST" name="tearDown" finished-at="2024-10-05T22:23:02 GST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_CheckoutPdt_NewUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
